@@ -1,0 +1,103 @@
+html {
+    font-family:"Noto Sans TC","Arial",sans-serif;
+    font-size:20px;
+    color:rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin:0;
+    background-color: #000000;
+    text-align: center;
+    
+}
+.left
+{
+    text-align: left;
+    padding: 0px 5%;
+}
+.right
+{
+    text-align: right;
+    padding: 0px 5%;
+}
+.center{
+    text-align: center;
+}
+h1 ,h2
+{
+    color: gold;
+}
+p
+{
+    color:rgb(255, 255, 255);
+}
+
+nav{
+    position: relative;
+    margin: 0 auto;
+    /* padding: 25px 20px; */
+    background-color: #555454be;
+    min-height: 30px;
+    font-size: 20px; 
+}
+nav ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 5px 10px;
+}
+nav a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+nav a:hover
+{
+    background-color:rgba(38, 75, 156, 0.767);
+
+}
+form{
+    text-align: right;
+    margin: 10px 20%;
+}
+footer
+{
+    color:rgb(255, 255, 255);
+}
+.clientMenu{
+    margin: 0 auto;
+    padding-left:5%;
+    position: relative;
+    display: block;
+    float: left;
+}
+.userMenu{
+    margin: 0 auto;
+    padding-right:10%;
+    position: relative;
+    display: block;
+    float: right;
+}
+.centeredBtn
+{
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 50px 2px;
+    cursor: pointer;
+}
+.embeddedlink
+{
+    color: rgb(255, 85, 119);
+}
+.embeddedlink:hover
+{
+    background-color:rgba(38, 75, 156, 0.767);
+}
+.invalidInput
+{
+    color: crimson;
+    text-align: left;
+    margin: 10px 20%;
+}
+.yellowText
+{
+    color: gold;
+}
